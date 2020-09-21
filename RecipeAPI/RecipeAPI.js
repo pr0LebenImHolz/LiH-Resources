@@ -188,7 +188,7 @@ const RecipeAPI = {
 		}
 		
 		return sortedRecipes;
-	}
+	},
 	
 	/**
 	 * Initiates the RecipeAPI.
