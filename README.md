@@ -16,7 +16,7 @@ All recipes are stored in `/recipeAPI/recipes.json`.
 		"[mod*0]:[itemname*0]_____[count*0]_____[metadata*0]_____{[nbt*0]}_____[row 1 vars],[row 2 vars],[row 3 vars]_____[declaration*1]_____[mod*1]:[itemname*1]_____[metadata*1]_____{[nbt-tags*1]}_____[declaration*n]_____[mod*n]:[itemname*n]_____[metadata*n]_____{[nbt-tags*n]}"
 	],
 	"shapeless": [
-		"[mod*0]:[itemname*0]_____[count*0]_____[metadata*0]_____{[nbt*0]}_____[mod*1]:[itemname*1]_____[dv*1]_____{[nbt*1]}_____[mod*n]:[itemname*n]_____[dv*n]_____{[nbt*n]}"
+		"[mod*0]:[itemname*0]_____[count*0]_____[metadata*0]_____{[nbt*0]}_____[mod*1]:[itemname*1]_____[metadata*1]_____{[nbt*1]}_____[mod*n]:[itemname*n]_____[metadata*n]_____{[nbt*n]}"
 	],
 	"smelting": [
 		"[mod**0]:[itemname**0]_____[metadata**0]_____[mod**1]:[itemname**1]_____[metadata**1]_____{[nbt**1]}_____[count**1]_____[xp (optional)]"
@@ -39,6 +39,6 @@ All recipes are stored in `/recipeAPI/recipes.json`.
 
 ### Items:
 
-All custom items are stored in `/recipeAPI/items/`.
+All custom items are stored in `/recipeAPI/resources/`.
 
-Styleguide: `[type]_[name].[png|gif]`.
+Styleguide: `[mod]_[name].[png|gif]` or `[mod]_[name]_[metadata].[png|gif]`.
