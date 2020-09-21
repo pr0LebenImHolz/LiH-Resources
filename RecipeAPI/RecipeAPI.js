@@ -242,14 +242,16 @@ const RecipeAPI = {
 	 * 
 	 * @return {JSON Object} The recipes.
 	 *   {
-	 *     {String category}: {
-	 *       "category": {String},
-	 *       "title": {String},
-	 *       "description": {String},
-	 *       "recipe": {HTML Element},
-	 *       "type": {Integer @see RecipeAPI.CONSTANTS.TYPE_*},
-	 *       "errored": [{boolean: true}|undefined]
-	 *     }
+	 *     {String category}: [
+	 *       {
+	 *         "category": {String},
+	 *         "title": {String},
+	 *         "description": {String},
+	 *         "recipe": {HTML Element},
+	 *         "type": {Integer @see RecipeAPI.CONSTANTS.TYPE_*},
+	 *         "errored": [{boolean: true}|undefined]
+	 *       }
+	 *     ]
 	 *   }
 	 * 
 	 * @throws {String} 'Missing precondition: RecipeAPI is not initiated.'
