@@ -40,7 +40,7 @@ All recipes are stored in `/recipeAPI/recipes.json`.
 ```
 
 - The recipe synthax i equal to the Loot++ recipe synthax.
-  - shapeless:
+  - shaped:
     - \[row ? vars\]: 3 letters, each one defines a variable.
     - \*0 ~ for output item
     - \*1 ~ for variable 1
@@ -58,6 +58,6 @@ All recipes are stored in `/recipeAPI/recipes.json`.
 
 ### Items:
 
-All custom items are stored in `/recipeAPI/resources/`.
+All custom items are stored in [`/RecipeAPI/resources/`](/RecipeAPI/resources/).
 
 Styleguide: `[mod]_[name].[png|gif]` or `[mod]_[name]_[metadata].[png|gif]`.
