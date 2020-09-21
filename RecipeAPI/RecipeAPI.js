@@ -144,11 +144,51 @@ const RecipeAPI = {
 	},
 	
 	_parseToHtml(recipe) {
-		// @todo 2020-09-21 @fivekWBassMachine
-		
-		
-		return JSON.stringify(recipe);
+		switch (recipe.type) {
+			case RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING:
+				if (recipe.errored) {
+					// Return default html with errored symbol
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				else {
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				
+				return JSON.stringify(recipe);
+			case RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING:
+				if (recipe.errored) {
+					// Return default html with errored symbol
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				else {
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				
+				return JSON.stringify(recipe);
+			case RecipeAPI.CONSTANTS.TYPE_SMELTING:
+				if (recipe.errored) {
+					// Return default html with errored symbol
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				else {
+					// @ToDo 2020-09-21 @fivekWBassMachine
+				}
+				
+				return JSON.stringify(recipe);
+		}
 	},
+	
+	_sortByCategory(recipes) {
+		
+		var sortedRecipes = [];
+		
+		for (var i = 0; i < recipes.length; i++) {
+			if (!sortedRecipes[recipes[i].category]) sortedRecipes[recipes[i].category] = [];
+			sortedRecipes[recipes[i].category].push(recipes[i]);
+		}
+		
+		return sortedRecipes;
+	}
 	
 	/**
 	 * Initiates the RecipeAPI.
@@ -200,15 +240,17 @@ const RecipeAPI = {
 	 * 
 	 * @param {JSON Object} The recipes from RecipeAPI::getRecipes.
 	 * 
-	 * @return {JSON Array} The recipes.
-	 *   [
-	 *     {
+	 * @return {JSON Object} The recipes.
+	 *   {
+	 *     {String category}: {
 	 *       "category": {String},
 	 *       "title": {String},
 	 *       "description": {String},
-	 *       "recipe": {HTML Element}
+	 *       "recipe": {HTML Element},
+	 *       "type": {Integer @see RecipeAPI.CONSTANTS.TYPE_*},
+	 *       "errored": [{boolean: true}|undefined]
 	 *     }
-	 *   ]
+	 *   }
 	 * 
 	 * @throws {String} 'Missing precondition: RecipeAPI is not initiated.'
 	 */
@@ -303,6 +345,8 @@ const RecipeAPI = {
 		for (var i = 0; i < allRecipes.length; i++) {
 			allRecipes[i] = RecipeAPI._parseToHtml(allRecipes[i]);
 		}
+		
+		allRecipes = RecipeAPI._sortByCategory(allRecipes);
 		
 		return allRecipes;
 	}
