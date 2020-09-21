@@ -4,7 +4,7 @@ _Leben im Holz Resources: Resources for the Wiki (like crafting recipes, etc.)_
 
 ## RecipeAPI
 
-Test Page: [https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/test.html]
+[Test Page](https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/test.html)
 
 Here are stored all recipes and items which are added via Loot++.
 
