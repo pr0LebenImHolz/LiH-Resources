@@ -293,7 +293,7 @@ const RecipeAPI = {
 		if (recipes.shapeless.length > 0) {
 			for(var i = 0; i < recipes.shapeless.length; i++) {
 				try {
-					recipes.shapeless[i].recipe = RecipeAPI._parseShaplessRecipeToJson(recipes.shapeless[i].recipe);
+					recipes.shapeless[i].recipe = RecipeAPI._parseShapelessRecipeToJson(recipes.shapeless[i].recipe);
 				}
 				catch (e) {
 					switch (e.type) {
