@@ -1,11 +1,32 @@
 {
 	"shaped": [
-		
+		{
+			"category": "Rüstung",
+			"title": "Kettenhelm",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:chainmail_helmet_____1_____0_____{}_____fff,f f,   _____f_____GardenStuff:chain_link_____2_____{}"
+		}
 	],
 	"shapeless": [
-	
+		{
+			"category": "Mod-Kompatiblität",
+			"title": "Thaumcraft Bernstein",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:gems_____1_____7_____{}_____Thaumcraft:ItemResource_____6_____{}"
+		},
+		{
+			"category": "Mod-Kompatiblität",
+			"title": "Biomes o` Plenty Bernstein",
+			"description": "Lorem et Ipsum",
+			"recipe": "Thaumcraft:ItemResource_____6_____{}_____BiomesOPlenty:gems_____1_____7_____{}"
+		}
 	],
 	"smelting": [
-	
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Engine Block MK V",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:engine_block_mk4_____-1_____lootplusplus:engine_block_mk5_____0_____{}_____1_____1"
+		}
 	]
 }
