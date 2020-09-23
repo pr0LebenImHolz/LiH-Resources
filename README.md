@@ -94,8 +94,8 @@ Example:
       "[name]": {
         "[meta]": {
           "img": "[texture source]",
-	  "href": "[wiki entry]",
-	  "title" "[ingame name]"
+          "href": "[wiki entry]",
+          "title" "[ingame name]"
         }
       }
     }
