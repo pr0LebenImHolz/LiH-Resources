@@ -1,0 +1,114 @@
+/* Style for the Recipe API (page layout) */
+.recipe_headline > a {
+	text-decoration: none;
+	color: #75c0c7;
+}
+.recipe_headline > a:hover {
+	color: #f5f7f6;
+}
+.recipe_headline > h2,
+.recipe_headline > h3 {
+	display: inline-block;
+}
+.recipe_headline > h2 {
+	margin: 30px 0 0 0;
+}
+.recipe_headline > h3 {
+	margin: 20px 0 0 0;
+}
+.recipe_headline > h2:target,
+.recipe_headline > h3:target {
+	text-decoration: underline;
+}
+.recipe_category_container {
+	margin: 0;
+	border-bottom: 1px solid #222222;
+}
+.recipe_recipe_container {
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	margin: 0;
+	padding: 20px;
+	border-bottom: 1px solid #222222;
+}
+.recipe_description {
+	margin: 0 0 0 20px;
+}
+/* Style for the Recipe API (recipe cards) */
+.recipe_shaped,
+.recipe_shapeless,
+.recipe_smelting {
+	position: relative;
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	margin: 0;
+	padding: 4px;
+	border-radius: 4px;
+	background-color: #222222;
+}
+.recipe_type {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	margin: 4px;
+	color: #888888;
+	font-size: 11px;
+}
+.recipe_shaped > .recipe_type::before {
+	content: "Shaped Crafting";
+}
+.recipe_shapeless > .recipe_type::before {
+	content: "Shapeless Crafting";
+}
+.recipe_smelting > .recipe_type::before {
+	content: "Smelting";
+}
+.recipe_type.errored::before {
+	content: "Error Parsing Recipe";
+}
+.recipe_arrow {
+	display: inline-block;
+	width: 32px;
+	margin: 4px;
+	padding: 2px;
+	font-size: 32px;
+	text-align: center;
+	color: #888888;
+}
+.recipe_arrow::before {
+	content: "➜";
+}
+.recipe_shaped > .recipe_input,
+.recipe_shapeless > .recipe_input {
+	border-collapse: collapse;
+}
+.recipe_input img {
+	width: 32px;
+	height: 32px;
+}
+.recipe_shaped a,
+.recipe_shapeless a,
+.recipe_smelting a {
+	display: inline-block;
+	background-color: #161618;
+	border: 2px solid #000000;
+	width: 32px;
+	height: 32px;
+	margin: 4px;
+	padding: 2px;
+}
+.recipe_smelting > .recipe_input {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.recipe_smelting > .recipe_input > .recipe_flame {
+	width: 32px;
+	height: 32px;
+	background: url(https://pr0lebenimholz.github.io/wiki/image/furnace_flames.svg) no-repeat center center;
+	background-size: contain;
+}
