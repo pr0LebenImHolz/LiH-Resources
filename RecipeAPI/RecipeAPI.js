@@ -59,7 +59,6 @@ const RecipeAPI = {
 		
 		// Final result
 		recipe = {
-			type: RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING,
 			output: {
 				mod: recipe[0][0],
 				name: recipe[0][1],
@@ -99,7 +98,6 @@ const RecipeAPI = {
 		// Final result
 		recipe = {
 			output: {
-			type: RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING,
 				mod: recipe[0][0],
 				name: recipe[0][1],
 				count: Number(recipe[1]),
@@ -123,7 +121,6 @@ const RecipeAPI = {
 		recipe[2] = recipe[2].split(':');
 		
 		recipe = {
-			type: RecipeAPI.CONSTANTS.TYPE_SMELTING,
 			input: {
 				mod: recipe[0][0],
 				name: recipe[0][1],
@@ -143,44 +140,9 @@ const RecipeAPI = {
 		return recipe;
 	},
 	
-	_parseToHtml(recipe) {
-		switch (recipe.type) {
-			case RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING:
-				if (recipe.errored) {
-					// Return default html with errored symbol
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				else {
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				
-				return JSON.stringify(recipe);
-			case RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING:
-				if (recipe.errored) {
-					// Return default html with errored symbol
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				else {
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				
-				return JSON.stringify(recipe);
-			case RecipeAPI.CONSTANTS.TYPE_SMELTING:
-				if (recipe.errored) {
-					// Return default html with errored symbol
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				else {
-					// @ToDo 2020-09-21 @fivekWBassMachine
-				}
-				
-				return JSON.stringify(recipe);
-		}
-	},
-	
 	_sortByCategory(recipes) {
 		
-		var sortedRecipes = [];
+		var sortedRecipes = {};
 		
 		for (var i = 0; i < recipes.length; i++) {
 			if (!sortedRecipes[recipes[i].category]) sortedRecipes[recipes[i].category] = [];
@@ -267,6 +229,7 @@ const RecipeAPI = {
 			for(var i = 0; i < recipes.shaped.length; i++) {
 				try {
 					recipes.shaped[i].recipe = RecipeAPI._parseShapedRecipeToJson(recipes.shaped[i].recipe);
+					recipes.shaped[i].type = RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING;
 				}
 				catch (e) {
 					switch (e.type) {
@@ -294,6 +257,7 @@ const RecipeAPI = {
 			for(var i = 0; i < recipes.shapeless.length; i++) {
 				try {
 					recipes.shapeless[i].recipe = RecipeAPI._parseShapelessRecipeToJson(recipes.shapeless[i].recipe);
+					recipes.shapeless[i].type = RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING;
 				}
 				catch (e) {
 					switch (e.type) {
@@ -321,6 +285,7 @@ const RecipeAPI = {
 			for(var i = 0; i < recipes.smelting.length; i++) {
 				try {
 					recipes.smelting[i].recipe = RecipeAPI._parseSmeltingRecipeToJson(recipes.smelting[i].recipe);
+					recipes.smelting[i].type = RecipeAPI.CONSTANTS.TYPE_SMELTING;
 				}
 				catch (e) {
 					switch (e.type) {
@@ -342,10 +307,6 @@ const RecipeAPI = {
 				}
 				allRecipes.push(recipes.smelting[i]);
 			}
-		}
-		
-		for (var i = 0; i < allRecipes.length; i++) {
-			allRecipes[i] = RecipeAPI._parseToHtml(allRecipes[i]);
 		}
 		
 		allRecipes = RecipeAPI._sortByCategory(allRecipes);
