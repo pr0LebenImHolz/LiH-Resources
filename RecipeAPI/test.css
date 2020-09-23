@@ -115,6 +115,6 @@
 .recipe_smelting > .recipe_input > .recipe_flame {
 	width: 32px;
 	height: 32px;
-	background: url(https://pr0lebenimholz.github.io/wiki/image/furnace_flames.svg) no-repeat center center;
+	background: url(https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/recipe_api/furnace_flames.svg) no-repeat center center;
 	background-size: contain;
 }
