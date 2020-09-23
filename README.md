@@ -10,7 +10,7 @@ Here are stored all recipes and items which are added via Loot++.
 
 ### Recipe synthax:
 
-All recipes are stored in `/recipeAPI/recipes.json`.
+All recipes are stored in [`/RecipeAPI/recipes.json`](/RecipeAPI/recipes.json).
 
 ```json
 {
