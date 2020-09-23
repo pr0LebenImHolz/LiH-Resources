@@ -54,8 +54,8 @@ All recipes are stored in `/recipeAPI/recipes.json`.
   - smelting:
     - \*\*0 ~ for input item
     - \*\*1 ~ for output item
-- The category is where the recipe can be classified (Can contain html/ markdown).
-- The title is the headline above the recipe (Can contain html/ markdown).
+- The category is where the recipe can be classified (Can contain html but plain text would be better (because it is a title; `h2`)).
+- The title is the headline above the recipe (Can contain html but plain text would be better (because it is a title; `h3`)).
 - The description is the text below the recipe (Can contain html/ markdown).
 
 ### Items:
