@@ -94,7 +94,7 @@ function parseRecipes(recipes, itemUrl) {
 				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
 				// output is json object with name, image and wiki link ({href,title,img})
 				var input = recipe.recipe.crafting;
-				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseShapelessTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				return `<div class="recipe_shapeless"><div class="recipe_type"></div><table class="recipe_input">${_parseShapelessTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
 			case RecipeAPI.CONSTANTS.TYPE_SMELTING:
 				if (recipe.errored) return '<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a></a><div class="recipe_flame"></div><a></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
 				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
