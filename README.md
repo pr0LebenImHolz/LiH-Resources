@@ -60,6 +60,53 @@ All recipes are stored in `/recipeAPI/recipes.json`.
 
 ### Items:
 
-All custom items are stored in [`/RecipeAPI/resources/`](/RecipeAPI/resources/).
+#### Textures (Resources):
 
-Styleguide: `[mod]_[name].[png|gif]` or `[mod]_[name]_[metadata].[png|gif]`.
+All game textures are stored in [`/RecipeAPI/resources/game/`](/RecipeAPI/resources/game/).
+
+All textures, required by this script are stored in [`/RecipeAPI/resources/recipe_api/`](/RecipeAPI/resources/recipe_api/).
+
+Styleguide: `[mod]_[name]_[metadata].[png|gif]`.
+
+#### Items (JSON list):
+
+In [`/RecipeAPI/items.json`](/RecipeAPI/items.json) are stored all items with wiki link, texture source and name.
+
+In `RECIPE_API` are stored all items, required by this script, in `GAME` are stored all 'real' items.
+
+Example:
+```json
+{
+  "RECIPE_API": {
+    "MISSINGNO": {
+      "img": "https://pr0LebenImHolz.github.io/LiH-Resources/RecipeAPI/resources/recipe_api/missingno.png",
+      "href": "#missingno",
+      "title": "MissingNo."
+    },
+    "FUEL": {
+      "img": "https://pr0LebenImHolz.github.io/LiH-Resources/RecipeAPI/resources/recipe_api/fuel.png",
+      "href": "https://minecraft.gamepedia.com/Smelting#Fuel",
+      "title": "Fuel"
+    }
+  },
+  "GAME": {
+    "[mod]": {
+      "[name]": {
+        "[meta]": {
+          "img": "[texture source]",
+	  "href": "[wiki entry]",
+	  "title" "[ingame name]"
+        }
+      }
+    }
+  }
+}
+```
+
+### Important Notes:
+
+- mod: The mod name. For vanilla items, use minecraft
+- name: The item name.
+- meta: The meta tag.
+
+**IMPORTANT: Currently, the keys are case sensitive!**
