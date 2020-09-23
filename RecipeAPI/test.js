@@ -5,10 +5,35 @@ const RECIPE_STYLES = {
 	CONTAINER_RECIPE: '<div class="recipe_recipe_container">%c</div>',
 	CONTAINER_RECIPE_DESCRIPTION: '<p class="recipe_description">%c</p>',
 };
-function parseRecipes(recipes) {
-	
-	var output = '';
-	
+function parseRecipes(recipes, itemUrl) {
+	function _getItems(url) {
+		try {
+			var response = $.ajax({
+				async: false,
+				url: url,
+				dataType: "json"
+			});
+			
+			if (response.status != 200) throw response.status;
+			
+			var dataType = response.responseJSON.__proto__.constructor;
+			
+			if (dataType !== Object) throw `Invalid datatype: '${dataType}'.`;
+		}
+		catch (e) {
+			switch (e) {
+				case 404:
+					e ='Internal error: Item file not found (Server responded with 404)';
+					break;
+				default:
+					e = `Unknown error while getting items: '${e}'`;
+					break;
+			}
+			throw e;
+		}
+		
+		return response.responseJSON;
+	}
 	function _parseHeadline(style, content) {
 		var i = content.toLowerCase().replaceAll(' ', '_');
 		return RECIPE_STYLES[style].replaceAll('%c', content).replaceAll('%i', '#' + i).replaceAll('%I', i);
@@ -17,167 +42,74 @@ function parseRecipes(recipes) {
 		return RECIPE_STYLES[style].replaceAll('%c', content);
 	}
 	function _parseRecipe(recipe) {
-		function _parseTable(input) {
+		
+		function _getItem(arr) {
+			var item = ITEMS.GAME;
+			for (var i = 0; i < arr.length; i++) {
+				if (!item) return ITEMS.RECIPE_API.MISSINGNO;
+				item = item[arr[i].toString()];
+			}
+			return item;
+		}
+		function _parseShapedTable(input) {
 			var table = '';
 			for (var i = 0; i < input.length; i++) {
 				table += '<tr>';
 				for (var j = 0; j < input[i].length; j++) {
-					table += `<td><td><a href="${input[i][j].href}" title="${input[i][j].title}"><img src="${input[i][j].img}" alt="${input[i][j].title[0]}" /></a></td>`;
+					if (input[i][j]) {
+						var item = _getItem([input[i][j].mod, input[i][j].name, input[i][j].meta]);
+						table += `<td><a href="${item.href}" title="${item.title}"><img src="${item.img}" alt="${item.title[0]}" /></a></td>`;
+					} else {
+						table += '<td><a><img /></a></td>';
+					}
 				}
 				table += '</tr>';
+			}
+			return table;
+		}
+		function _parseShapelessTable(input) {
+			var table = '<tr>';
+			var i = 0;
+			for (var i = 0; i < 9; i++) {
+				if (i < input.length) {
+					var item = _getItem([input[i].mod, input[i].name, input[i].meta]);
+					table += `<td><a href="${item.href}" title="${item.title}"><img src="${item.img}" alt="${item.title[0]}" /></a></td>`;
+				}
+				else {
+					table += '<td><a><img /></a></td>';
+				}
+				if ((i + 1) % 3 === 0) table += '</tr><tr>';
 			}
 			return table;
 		}
 		switch (recipe.type) {
 			case RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING:
 				if (recipe.errored) return '<div class="recipe_shaped"><div class="recipe_type errored"></div><table class="recipe_input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				//+debug
-				var output = {
-					href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-					title: "[title]",
-					img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-				};
-				var input = [
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					],
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					],
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					]
-				];
-				//-debug
-				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+				// output is json object with name, image and wiki link ({href,title,img})
+				var input = recipe.recipe.crafting;
+				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseShapedTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
 			case RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING:
 				if (recipe.errored) return '<div class="recipe_shapeless"><div class="recipe_type errored"></div><table class="input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				//+debug
-				var output = {
-					href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-					title: "[title]",
-					img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-				};
-				var input = [
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					],
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					],
-					[
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						},
-						{
-							href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-							title: "[title]",
-							img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-						}
-					]
-				];
-				//-debug
-				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+				// output is json object with name, image and wiki link ({href,title,img})
+				var input = recipe.recipe.crafting;
+				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseShapelessTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
 			case RecipeAPI.CONSTANTS.TYPE_SMELTING:
 				if (recipe.errored) return '<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a></a><div class="recipe_flame"></div><a></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				//+debug
-				var output = {
-					href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-					title: "[title]",
-					img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-				};
-				var input = {
-					href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-					title: "[title]",
-					img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-				};
-				var fuel = {
-					href: "https://pr0LebenImHolz.github.io/item.html?[mod]&[name]&[id]",
-					title: "[title]",
-					img: "https://pr0LebenImHolz.github.io/resources/[mod]_[name]_[id]"
-				};
+				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+				var input = _getItem([recipe.recipe.input.mod, recipe.recipe.input.name, recipe.recipe.input.meta]);
+				// output and input are json objects with name, image and wiki link ({href,title,img})
+				var fuel = ITEMS.RECIPE_API.FUEL;
 				//-debug
 				return `<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a href="${input.href}" title="${input.title}"><img src="${input.img}" alt="${input.title[0]}" /></a><div class="recipe_flame"></div><a href="${fuel.href}" title="${fuel.title}"><img src="${fuel.img}" alt="${fuel.title[0]}" /></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
 		}
 		return recipe;
 	}
+	
+	const ITEMS = _getItems(itemUrl);
+	
+	var output = '';
 	
 	// Iterate through categories
 	var recipesKeys = Object.keys(recipes);

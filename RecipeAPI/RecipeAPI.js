@@ -1,7 +1,6 @@
 const RecipeAPI = {
 	
 	_recipes: null,
-	_resources: null,
 	_debug: false,
 	_initiated: false,
 	
@@ -84,14 +83,14 @@ const RecipeAPI = {
 		recipe[0] = recipe[0].split(':');
 		
 		// Get all declarations
-		var items = {};
-		for (var i = 4; i < recipe.length; i += 4) {
-			recipe[i + 1] = recipe[i + 1].split(':');
-			items[recipe[i]] = {
-				mod: recipe[i + 1][0],
-				name: recipe[i + 1][1],
-				meta: Number(recipe[i + 2]),
-				nbt: recipe[i + 3]
+		var items = [];
+		for (var i = 4, j = 0; i < recipe.length; i += 4, j++) {
+			recipe[i] = recipe[i].split(':');
+			items[j] = {
+				mod: recipe[i][0],
+				name: recipe[i][1],
+				meta: Number(recipe[i + 1]),
+				nbt: recipe[i + 2]
 			};
 		}
 		
@@ -156,13 +155,11 @@ const RecipeAPI = {
 	 * Initiates the RecipeAPI.
 	 * 
 	 * @param recipes {String} Url to the recipes json file.
-	 * @param resources {String} Url to the resources directory.
 	 * @param debug {boolean} (Optional) Show debug messages.
 	 */
-	init(recipes, resources, debug = false) {
+	init(recipes, debug = false) {
 		if (!jQuery) throw 'jQuery is required to run this script!';
 		RecipeAPI._recipes = recipes;
-		RecipeAPI._resources = resources;
 		RecipeAPI._enableDebugInfo = debug;
 		RecipeAPI._initiated = true;
 	},

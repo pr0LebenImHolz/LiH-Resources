@@ -86,9 +86,15 @@
 .recipe_shapeless > .recipe_input {
 	border-collapse: collapse;
 }
-.recipe_input img {
+.recipe_input img,
+.recipe_output img {
 	width: 32px;
 	height: 32px;
+	visibility: hidden;
+}
+.recipe_input img[src],
+.recipe_output img[src] {
+	visibility: visible;
 }
 .recipe_shaped a,
 .recipe_shapeless a,

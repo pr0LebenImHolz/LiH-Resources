@@ -18,7 +18,7 @@
 			"category": "Mod-Kompatiblität",
 			"title": "Biomes o` Plenty Bernstein",
 			"description": "Lorem et Ipsum",
-			"recipe": "Thaumcraft:ItemResource_____6_____{}_____BiomesOPlenty:gems_____1_____7_____{}"
+			"recipe": "Thaumcraft:ItemResource_____1_____6_____{}_____BiomesOPlenty:gems_____7_____{}"
 		}
 	],
 	"smelting": [

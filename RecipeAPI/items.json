@@ -1,0 +1,16 @@
+{
+	"RECIPE_API": {
+		"MISSINGNO": {
+			"img": "https://pr0LebenImHolz.github.io/LiH-Resources/RecipeAPI/resources/recipe_api/missingno.png",
+			"href": "#missingno",
+			"title": "MissingNo."
+		},
+		"FUEL": {
+			"img": "https://pr0LebenImHolz.github.io/RecipeAPI/resources/recipe_api/fuel.png",
+			"href": "https://minecraft.gamepedia.com/Smelting#Fuel",
+			"title": "Fuel"
+		}
+	},
+	"GAME": {
+	}
+}
