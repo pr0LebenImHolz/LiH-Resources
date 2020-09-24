@@ -91,6 +91,9 @@
 	width: 32px;
 	height: 32px;
 	visibility: hidden;
+	color: #888888;
+	text-decoration: none;
+	
 }
 .recipe_input img[src],
 .recipe_output img[src] {
@@ -106,6 +109,7 @@
 	height: 32px;
 	margin: 4px;
 	padding: 2px;
+	text-align: center;
 }
 .recipe_smelting > .recipe_input {
 	display: flex;
