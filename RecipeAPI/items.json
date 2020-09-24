@@ -63,38 +63,36 @@
 				}
 			}
 		},
-		"BuildCraft": {
-			"Core": {
-				"engineBlock": {
-					"0": {
-						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_0.png",
-						"href": "https://ftb.gamepedia.com/Redstone_Engine",
-						"title": "Redstone Engine"
-					},
-					"1": {
-						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_1.png",
-						"href": "https://ftb.gamepedia.com/Stirling_Engine",
-						"title": "Stirling Engine"
-					},
-					"2": {
-						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_2.png",
-						"href": "https://ftb.gamepedia.com/Combustion_Engine",
-						"title": "Combustion Engine"
-					},
-					"3": {
-						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_3.png",
-						"href": "https://ftb.gamepedia.com/Creative_Engine",
-						"title": "Creative Engine"
-					}
+		"BuildCraft|Core": {
+			"engineBlock": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_0.png",
+					"href": "https://ftb.gamepedia.com/Redstone_Engine",
+					"title": "Redstone Engine"
+				},
+				"1": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_1.png",
+					"href": "https://ftb.gamepedia.com/Stirling_Engine",
+					"title": "Stirling Engine"
+				},
+				"2": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_2.png",
+					"href": "https://ftb.gamepedia.com/Combustion_Engine",
+					"title": "Combustion Engine"
+				},
+				"3": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_3.png",
+					"href": "https://ftb.gamepedia.com/Creative_Engine",
+					"title": "Creative Engine"
 				}
-			},
-			"Silicon": {
-				"redtoneCrystal": {
-					"0": {
-						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
-						"href": "https://ftb.gamepedia.com/Redstone_Crystal",
-						"title": "Redstone Crystal"
-					}
+			}
+		},
+		"BuildCraft|Silicon": {
+			"redtoneCrystal": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
+					"href": "https://ftb.gamepedia.com/Redstone_Crystal",
+					"title": "Redstone Crystal"
 				}
 			}
 		},
