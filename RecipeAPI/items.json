@@ -27,6 +27,13 @@
 					"title": "Amethyst Chestplate"
 				}
 			},
+			"foliage": {
+				"13": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_foliage_13.png",
+					"href": "#missingno",
+					"title": "Clover Patch"
+				}
+			},
 			"gemOre": {
 				"1": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_gemore_1.png",
@@ -57,35 +64,37 @@
 			}
 		},
 		"BuildCraft": {
-			"engineBlock": {
-				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_0.png",
-					"href": "https://ftb.gamepedia.com/Redstone_Engine",
-					"title": "Redstone Engine"
-				},
-				"1": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_1.png",
-					"href": "https://ftb.gamepedia.com/Stirling_Engine",
-					"title": "Stirling Engine"
-				},
-				"2": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_2.png",
-					"href": "https://ftb.gamepedia.com/Combustion_Engine",
-					"title": "Combustion Engine"
-				},
-				"3": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_3.png",
-					"href": "https://ftb.gamepedia.com/Creative_Engine",
-					"title": "Creative Engine"
+			"Core": {
+				"engineBlock": {
+					"0": {
+						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_0.png",
+						"href": "https://ftb.gamepedia.com/Redstone_Engine",
+						"title": "Redstone Engine"
+					},
+					"1": {
+						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_1.png",
+						"href": "https://ftb.gamepedia.com/Stirling_Engine",
+						"title": "Stirling Engine"
+					},
+					"2": {
+						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_2.png",
+						"href": "https://ftb.gamepedia.com/Combustion_Engine",
+						"title": "Combustion Engine"
+					},
+					"3": {
+						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft_engineblock_3.png",
+						"href": "https://ftb.gamepedia.com/Creative_Engine",
+						"title": "Creative Engine"
+					}
 				}
 			},
-		},
-		"BuildCraft-Silicon": {
-			"redtoneCrystal": {
-				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
-					"href": "https://ftb.gamepedia.com/Redstone_Crystal",
-					"title": "Redstone Crystal"
+			"Silicon": {
+				"redtoneCrystal": {
+					"0": {
+						"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
+						"href": "https://ftb.gamepedia.com/Redstone_Crystal",
+						"title": "Redstone Crystal"
+					}
 				}
 			}
 		},
@@ -95,6 +104,13 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/chisel_cloudinabottle.png",
 					"href": "https://ftb.gamepedia.com/Cloud_in_a_Bottle_(Chisel_(TheCricket26))",
 					"title": "Cloud in a Bottle"
+				}
+			}
+			"waterstone": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/chisel_waterstone_0.png",
+					"href": "#missingno",
+					"title": "Waterstone"
 				}
 			}
 		},
@@ -160,6 +176,13 @@
 					"title": "Engine Block MK V"
 				}
 			},
+			"enriched_quarz_star": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_enriched-quarz-star.png",
+					"href": "#lootplusplus:enriched_quarz_star",
+					"title": "Enrichted Quartz Star"
+				}
+			}
 			"nether_star_block": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_nether-star-block.png",
