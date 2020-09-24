@@ -46,7 +46,10 @@ function parseRecipes(recipes, itemUrl) {
 		function _getItem(arr) {
 			var item = ITEMS.GAME;
 			for (var i = 0; i < arr.length; i++) {
-				if (!item) return ITEMS.RECIPE_API.MISSINGNO;
+				if (!item) {
+					console.warn(`Replaced item '${arr.join(":")}' with missingno texture`);
+					return ITEMS.RECIPE_API.MISSINGNO;
+				}
 				if (arr[i] === -1 ) arr[i] = 0;
 				item = item[arr[i].toString()];
 			}
