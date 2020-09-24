@@ -13,6 +13,13 @@
 	},
 	"GAME": {
 		"BiomesOPlenty": {
+			"axeAmethyst": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_axeamethyst.png",
+					"href": "#missingno",
+					"title": "Amethyst Axe"
+				}
+			},
 			"bootsAmethyst": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_bootsamethyst.png",
@@ -37,8 +44,20 @@
 			"gemOre": {
 				"1": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_gemore_1.png",
-					"href": "https://ftbwiki.org/Amethyst_(Biomes_O%27_Plenty)",
+					"href": "https://ftbwiki.org/Block_of_Amethyst_(Biomes_O%27_Plenty)",
 					"title": "Block of Amethyst"
+				}
+			},
+			"gems": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_gems_0.png",
+					"href": "https://ftbwiki.org/Amethyst_(Biomes_O%27_Plenty)",
+					"title": "Ender Amethyst"
+				},
+				"7": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_gems_7.png",
+					"href": "https://ftbwiki.org/Amber_(Biomes_O%27_Plenty)",
+					"title": "Amber"
 				}
 			},
 			"helmetAmethyst": {
@@ -48,11 +67,25 @@
 					"title": "Amethyst Helmet"
 				}
 			},
-			"legginsAmethyst": {
+			"hoeAmethyst": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_hoeamethyst.png",
+					"href": "#missingno",
+					"title": "Amethyst Hoe"
+				}
+			},
+			"leggingsAmethyst": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_legginsamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
 					"title": "Amethyst Leggins"
+				}
+			},
+			"pickaxeAmethyst": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_pickaxeamethyst.png",
+					"href": "#missingno",
+					"title": "Amethyst Pickaxe"
 				}
 			},
 			"plants": {
@@ -60,6 +93,13 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_thorns_5.png",
 					"href": "https://biomesoplenty.fandom.com/wiki/Thorns",
 					"title": "Amethyst Leggins"
+				}
+			},
+			"shovelAmethyst": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_shovelamethyst.png",
+					"href": "#missingno",
+					"title": "Amethyst Shovel"
 				}
 			}
 		},
@@ -88,7 +128,7 @@
 			}
 		},
 		"BuildCraft|Silicon": {
-			"redtoneCrystal": {
+			"redstoneCrystal": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
 					"href": "https://ftb.gamepedia.com/Redstone_Crystal",
@@ -121,6 +161,15 @@
 				}
 			}
 		},
+		"harvestcraft": {
+			"epicbaconItem": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/harvestcraft_epicbaconitem.png",
+					"href": "https://ftbwiki.org/Epic_Bacon",
+					"title": "Epic Bacon"
+				}
+			}
+		},
 		"lootplusplus": {
 			"command_trigger_item": {
 				"0": {
@@ -137,6 +186,41 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_command-trigger-item_eye-of-storm.png",
 					"href": "#lootplusplus:command_trigger_item:heart_of_night",
 					"title": "Herz der Nacht"
+				}
+			},
+			"currency_copper": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-copper.png",
+					"href": "#lootplusplus:currency_copper",
+					"title": "Copper Coin"
+				}
+			},
+			"currency_electrum": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-electrum.png",
+					"href": "#lootplusplus:currency_electrum",
+					"title": "Electrum Coin"
+				}
+			},
+			"currency_gold": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-gold.png",
+					"href": "#lootplusplus:currency_gold",
+					"title": "Gold Coin"
+				}
+			},
+			"currency_platinum": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-platinum.png",
+					"href": "#lootplusplus:currency_platinum",
+					"title": "Platinum Coin"
+				}
+			},
+			"currency_silver": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-silver.png",
+					"href": "#lootplusplus:currency_silver",
+					"title": "Silver Coin"
 				}
 			},
 			"engine_block_mk1": {
@@ -186,6 +270,13 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_nether-star-block.png",
 					"href": "#lootplusplus:nether_star_block",
 					"title": "Nether Star Block"
+				}
+			},
+			"tool_bannhammer": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_tool-bannhammer.png",
+					"href": "#lootplusplus:tool_bannhammer",
+					"title": "Bannhammer"
 				}
 			}
 		},
@@ -239,7 +330,7 @@
 					"title": "Diamond"
 				}
 			},
-			"diamond": {
+			"diamond_block": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_diamond-block.png",
 					"href": "https://minecraft.gamepedia.com/Block_of_Diamond",
@@ -272,6 +363,13 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_experience-bottle.png",
 					"href": "https://minecraft.gamepedia.com/Bottle_o'_Enchanting",
 					"title": "Bottle o´ Enchanting"
+				}
+			},
+			"feather": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_feather.png",
+					"href": "https://minecraft.gamepedia.com/Feather",
+					"title": "Feather"
 				}
 			},
 			"fire_charge": {
@@ -334,6 +432,33 @@
 			}
 		},
 		"TConstruct": {
+			"heartCanister": {
+				"1": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_1.png",
+					"href": "https://ftbwiki.org/Miniature_Red_Heart",
+					"title": "Miniature Red Heart"
+				},
+				"3": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_3.png",
+					"href": "https://ftbwiki.org/Miniature_Yellow_Heart",
+					"title": "Miniature Yellow Heart"
+				},
+				"4": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_heartcanister_4.png",
+					"href": "https://ftbwiki.org/Yellow_Heart_Canister_(Tinkers'_Construct)",
+					"title": "Yellow Heart Canister"
+				},
+				"5": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_heartcanister_5.png",
+					"href": "https://ftbwiki.org/Miniature_Green_Heart",
+					"title": "Miniature Green Heart"
+				},
+				"6": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_heartcanister_6.png",
+					"href": "https://ftbwiki.org/Green_Heart_Canister_(Tinkers%27_Construct)",
+					"title": "Green Heart Canister"
+				}
+			},
 			"MetalBlock": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_0.png",
@@ -348,18 +473,18 @@
 			}
 		},
 		"Thaumcraft": {
-			"itemEldritchObject": {
+			"ItemEldritchObject": {
 				"3": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/thaumcraft_itemeldritchobject_3.png",
 					"href": "https://ftbwiki.org/Primordial_Pearl",
 					"title": "Primordial Pearl"
 				}
 			},
-			"": {
-				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/.png",
-					"href": "",
-					"title": ""
+			"ItemResource": {
+				"6": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/thaumcraft_itemresource_6.png",
+					"href": "https://ftbwiki.org/Amber_(Thaumcraft_4)",
+					"title": "Amber"
 				}
 			}
 		},
