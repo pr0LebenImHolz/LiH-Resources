@@ -75,10 +75,10 @@ const RecipeAPI = {
 		
 		recipe = recipe.split('_____');
 		
-		// 40 is the maximum amount of array items: The output item takes 4 array items, the input items takes 4 each. 4 * 9 + 4 = 40
-		// 8 is the minumum amount of array items: The output item takes 4 array items, the input items takes 4 each. At least 1 input item is required. 4 + 4 * 1 = 8
-		// Modulo 4 is to check if the string is complete (The input items are taking 4 array items each. So the array length (without the output item array items) modulo 4 should be 0).
-		if (recipe.length % 4 !== 0 && recipe.length <= 40 && recipe.length >= 8) throw {e: RecipeAPI.CONSTANTS.ERROR_PARSING_INVALID_LENGTH, msg: `Error parsing recipe: Invalid recipe length: '${recipe.length}'.`};
+		// 31 is the maximum amount of array items: The output item takes 4 array items, the input items takes 3 each. 3 * 9 + 4 = 31
+		// 7 is the minumum amount of array items: The output item takes 4 array items, the input items takes 3 each. At least 1 input item is required. 4 + 3 * 1 = 7
+		// Modulo 3 is to check if the string is complete (The input items are taking 4 array items each. So the array length (without the output item array items) modulo 3 should be 0).
+		if ((recipe.length - 4) % 3 !== 0 && recipe.length <= 31 && recipe.length >= 7) throw {e: RecipeAPI.CONSTANTS.ERROR_PARSING_INVALID_LENGTH, msg: `Error parsing recipe: Invalid recipe length: '${recipe.length}'.`};
 		
 		recipe[0] = recipe[0].split(':');
 		
