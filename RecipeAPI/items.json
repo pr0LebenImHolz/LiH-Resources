@@ -386,6 +386,13 @@
 					"title": "Glass"
 				}
 			},
+			"glass_bottle": {
+				"0": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_glass-bottle.png",
+					"href": "https://minecraft.gamepedia.com/Glass_Bottle",
+					"title": "Glass Bottle"
+				}
+			},
 			"iron_block": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_iron-block.png",
@@ -469,6 +476,13 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_8.png",
 					"href": "https://ftbwiki.org/Block_of_Alumite",
 					"title": "Block of Alumite"
+				}
+			},
+			"oreBerries": {
+				"5": {
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_oreberries_5.png",
+					"href": "https://ftbwiki.org/Concentrated_Essence_Berry",
+					"title": "Concentrated Essence Berry"
 				}
 			}
 		},
