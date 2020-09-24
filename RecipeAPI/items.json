@@ -14,14 +14,14 @@
 	"GAME": {
 		"BiomesOPlenty": {
 			"bootsAmethyst": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_bootsamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
 					"title": "Amethyst Boots"
 				}
 			},
 			"chestplateAmethyst": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_chestplateamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
 					"title": "Amethyst Chestplate"
@@ -35,14 +35,14 @@
 				}
 			},
 			"helmetAmethyst": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_helmetamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
 					"title": "Amethyst Helmet"
 				}
 			},
 			"legginsAmethyst": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_legginsamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
 					"title": "Amethyst Leggins"
@@ -82,7 +82,7 @@
 		},
 		"BuildCraft-Silicon": {
 			"redtoneCrystal": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/buildcraft-silicon_redstonecrystal.png",
 					"href": "https://ftb.gamepedia.com/Redstone_Crystal",
 					"title": "Redstone Crystal"
@@ -91,7 +91,7 @@
 		},
 		"chisel": {
 			"cloudinabottle": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/chisel_cloudinabottle.png",
 					"href": "https://ftb.gamepedia.com/Cloud_in_a_Bottle_(Chisel_(TheCricket26))",
 					"title": "Cloud in a Bottle"
@@ -109,7 +109,7 @@
 		},
 		"lootplusplus": {
 			"command_trigger_item": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_command-trigger-item.png",
 					"href": "#lootplusplus:command_trigger_item",
 					"title": "Empty Pearl"
@@ -126,42 +126,42 @@
 				}
 			},
 			"engine_block_mk1": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_engine-block-mk1.png",
 					"href": "#lootplusplus:engine_block_mk1",
 					"title": "Engine Block MK I"
 				}
 			},
 			"engine_block_mk2": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_engine-block-mk2.png",
 					"href": "#lootplusplus:engine_block_mk2",
 					"title": "Engine Block MK II"
 				}
 			},
 			"engine_block_mk3": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_engine-block-mk3.png",
 					"href": "#lootplusplus:engine_block_mk3",
 					"title": "Engine Block MK III"
 				}
 			},
 			"engine_block_mk4": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_engine-block-mk4.png",
 					"href": "#lootplusplus:engine_block_mk4",
 					"title": "Engine Block MK IV"
 				}
 			},
 			"engine_block_mk5": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_engine-block-mk5.png",
 					"href": "#lootplusplus:engine_block_mk5",
 					"title": "Engine Block MK V"
 				}
 			},
 			"nether_star_block": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_nether-star-block.png",
 					"href": "#lootplusplus:nether_star_block",
 					"title": "Nether Star Block"
@@ -170,133 +170,133 @@
 		},
 		"minecraft": {
 			"arrow": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_arrow.png",
 					"href": "https://minecraft.gamepedia.com/Arrow",
 					"title": "Arrow"
 				}
 			},
 			"chainmail_boots": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_chainmail-boots.png",
 					"href": "https://minecraft.gamepedia.com/Chainmail_Boots",
 					"title": "Chainmail Boots"
 				}
 			},
 			"chainmail_chestplate": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_chainmail-chestplate.png",
 					"href": "https://minecraft.gamepedia.com/Chainmail_Chestplate",
 					"title": "Chainmail Chestplate"
 				}
 			},
 			"chainmail_helmet": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_chainmail-helmet.png",
 					"href": "https://minecraft.gamepedia.com/Chainmail_Helmet",
 					"title": "Chainmail Helmet"
 				}
 			},
 			"chainmail_leggins": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_chainmail-leggins.png",
 					"href": "https://minecraft.gamepedia.com/Chainmail_Leggins",
 					"title": "Chainmail Leggins"
 				}
 			},
 			"clock": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_clock.gif",
 					"href": "https://minecraft.gamepedia.com/Clock",
 					"title": "Clock"
 				}
 			},
 			"diamond": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_diamond.png",
 					"href": "https://minecraft.gamepedia.com/Diamond",
 					"title": "Diamond"
 				}
 			},
 			"diamond": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_diamond-block.png",
 					"href": "https://minecraft.gamepedia.com/Block_of_Diamond",
 					"title": "Block of Diamond"
 				}
 			},
 			"double_plant": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_double-plant.png",
 					"href": "https://minecraft.gamepedia.com/Sunflower",
 					"title": "Sunflower"
 				}
 			},
 			"ender_eye": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_ender-eye.png",
 					"href": "https://minecraft.gamepedia.com/Eye_of_Ender",
 					"title": "Eye of Ender"
 				}
 			},
 			"ender_pearl": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_ender-pearl.png",
 					"href": "https://minecraft.gamepedia.com/Ender_Pearl",
 					"title": "Ender Pearl"
 				}
 			},
 			"experience_bottle": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_experience-bottle.png",
 					"href": "https://minecraft.gamepedia.com/Bottle_o'_Enchanting",
 					"title": "Bottle o´ Enchanting"
 				}
 			},
 			"fire_charge": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_fire-charge.png",
 					"href": "https://minecraft.gamepedia.com/Fire_Charge",
 					"title": "Fire Charge"
 				}
 			},
 			"glass": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_glass.png",
 					"href": "https://minecraft.gamepedia.com/Glass",
 					"title": "Glass"
 				}
 			},
 			"iron_block": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_iron-block.png",
 					"href": "https://minecraft.gamepedia.com/Block_of_Iron",
 					"title": "Block of Iron"
 				}
 			},
 			"nether_star": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_nether-star.png",
 					"href": "https://minecraft.gamepedia.com/Nether_Star",
 					"title": "Nether Star"
 				}
 			},
 			"quartz_block": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_quartz-block.png",
 					"href": "https://minecraft.gamepedia.com/Block_of_Quartz",
 					"title": "Block of Quartz"
 				}
 			},
 			"redstone_block": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_redstone-block.png",
 					"href": "https://minecraft.gamepedia.com/Block_of_Redstone",
 					"title": "Block of Redstone"
 				}
 			},
 			"tnt": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/minecraft_tnt.png",
 					"href": "https://minecraft.gamepedia.com/",
 					"title": "TNT"
@@ -305,7 +305,7 @@
 		},
 		"plantmegapack": {
 			"powderCoral": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/plantsmegapack_powdercoral.png",
 					"href": "#missingno",
 					"title": "Coral Powder"
@@ -335,7 +335,7 @@
 				}
 			},
 			"": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/.png",
 					"href": "",
 					"title": ""
@@ -344,7 +344,7 @@
 		},
 		"VeganOption": {
 			"encrustedObsidian": {
-				"-1": {
+				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/veganoption_encrustedobsidian.png",
 					"href": "https://ftb.gamepedia.com/Encrusted_Obsidian",
 					"title": "Encrusted Obsidian"
