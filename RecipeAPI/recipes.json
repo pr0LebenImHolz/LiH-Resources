@@ -1,5 +1,389 @@
 {
 	"shaped": [
+		{
+			"category": "Rüstung",
+			"title": "Kettenhelm",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:chainmail_helmet_____1_____0_____{}_____fff,f f,   _____f_____GardenStuff:chain_link_____2_____{}"
+		},
+		{
+			"category": "Rüstung",
+			"title": "Kettenhemd",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:chainmail_chestplate_____1_____0_____{}_____f f,fff,fff_____f_____GardenStuff:chain_link_____2_____{}"
+		},
+		{
+			"category": "Rüstung",
+			"title": "Kettenbeinschutz",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:chainmail_leggings_____1_____0_____{}_____fff,f f,f f_____f_____GardenStuff:chain_link_____2_____{}"
+		},
+		{
+			"category": "Rüstung",
+			"title": "Kettenstiefel",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:chainmail_boots_____1_____0_____{}_____f f,f f,   _____f_____GardenStuff:chain_link_____2_____{}"
+		},
+		{
+			"category": "Perlen",
+			"title": "Leere Perle",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:"Leere Perle",Lore:["Ein mächtiges Potential welchem die Richtung zu fehlen scheint"]},Enchantments:[{}],CommandList:[""]}_____ g ,gdg, g _____g_____minecraft:glass_____0_____{}_____d_____minecraft:diamond_____0_____{}"
+		},
+		{
+			"category": "Perlen",
+			"title": "Herz der Nacht",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:"Herz der Nacht",Lore:["Im Schimmern des Edelsteins kann man den Glanz der Sterne erkennen"]},Enchantments:[{}],CommandList:["/time set day","/me verwies die Nacht in ihre Grenzen"]}_____ u ,gdg, u _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:"Leere Perle",Lore:["Ein mächtiges Potential welchem die Richtung zu fehlen scheint"]},Enchantments:[{}],CommandList:[""]}_____u_____minecraft:clock_____0_____{}"
+		},
+		{
+			"category": "Perlen",
+			"title": "Auge des Sturms",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:"Auge des Sturms",Lore:["In seinem Inneren scheint ein Sturm zu toben"]},Enchantments:[{}],CommandList:["/weather clear","/me verbannte die Wolken vom Himmel"]}_____ c ,gdg, s _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:"Leere Perle",Lore:["Ein mächtiges Potential welchem die Richtung zu fehlen scheint"]},Enchantments:[{}],CommandList:[""]}_____c_____chisel:cloudinabottle_____0_____{}_____s_____minecraft:double_plant_____0_____{}"
+		},
+		{
+			"category": "Uncategorized Recipes",
+			"title": "Auge des Sturms",
+			"description": "Lorem et Ipsum",
+			"recipe": "TConstruct:heartCanister_____1_____5_____{}_____yry,rer,yry_____r_____TConstruct:heartCanister_____1_____{}_____y_____TConstruct:heartCanister_____3_____{}_____e_____harvestcraft:epicbaconItem_____-1_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "???",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____eee,aga,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____g_____BiomesOPlenty:helmetAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Aufgeladene Amethyst Brustplatte",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____eee,ala,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____l_____BiomesOPlenty:chestplateAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Aufgeladener Amethyst Beinschutz",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____eee,ama,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____m_____BiomesOPlenty:leggingsAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Aufgeladene Amethyst Stiefel",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____eee,ana,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____n_____BiomesOPlenty:bootsAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm des Feuervogels",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm des Feuervogels",Lore:[Je wärmer es wird desto kühler scheint die Oberfläche zu werden. In der mitte des Helms ist ein Rubin eingelassen in dessen Glanz sich eine tanzende Flamme erahnen lässt.]},ench:[{id:1,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:fire_charge_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Brustrüstung des Feuervogels",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Brustrüstung des Feuervogels",Lore:[Je wärmer es wird desto kühler scheint die Oberfläche zu werden. Goldene Ornamente eines Phönix zieren diese Brustplatte.]},ench:[{id:1,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:fire_charge_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz des Feuervogels",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz des Feuervogels",Lore:[Je wärmer es wird desto kühler scheint die Oberfläche zu werden. In dieser Hose behällst du immer einen kühlen Schritt.]},ench:[{id:1,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:fire_charge_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel des Feuervogels",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel des Feuervogels",Lore:[Je wärmer es wird desto kühler scheint die Oberfläche zu werden. In den Fusspuren der Stiefel ist Raureif zu erkennen.]},ench:[{id:1,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:fire_charge_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Schutzhelm des Sprengmeisters",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Schutzhelm des Sprengmeisters",Lore:[Ein gepanzerter Grubenhelm der auch das Gesicht schützt. Unter einer Schicht aus Dreck und Ruß scheint gelbe Farbe hindurch.]},ench:[{id:3,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:tnt_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Schutzweste des Sprengmeisters",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Schutzweste des Sprengmeisters",Lore:[An der schwer gepanzerten Rüstung befinden sich Rußspuren und sie richt nach Rauch.]},ench:[{id:3,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:tnt_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz des Sprengmeisters",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz des Sprengmeisters",Lore:[Mehrere rußbesudelte überlappende Platten machen diese Hose sowohl stabil als auch flexibel]},ench:[{id:3,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:tnt_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel des Sprengmeisters",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel des Sprengmeisters",Lore:[Robuste Stiefel mit genagelter Sohle und Stahlkappen]},ench:[{id:3,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:tnt_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm des Bollwerks",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm des Bollwerks",Lore:[Eine Rüstung wie eine Festung, der Helm ähnelt mehr einer Belagerungswaffe als einer Rüstung]},ench:[{id:0,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Brustrüstung des Bollwerks",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Brustrüstung des Bollwerks",Lore:[Eine Rüstung wie eine Festung, kein platz für Kompromisse.]},ench:[{id:0,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz des Bollwerks",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz des Bollwerks",Lore:[Eine Rüstung wie eine Festung, so standfest wie ein Gebirge.]},ench:[{id:0,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel des Bollwerks",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel des Bollwerks",Lore:[Eine Rüstung wie eine Festung, weiche nicht einen Schritt.]},ench:[{id:0,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm der Diamanthaut",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm der Diamanthaut",Lore:[Die Oberfläche ercheint beunruhigend Makellos, sie scheint undurchdringbar und hat einen seltsamen Glanz.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Brustrüstung der Diamanthaut",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Brustrüstung der Diamanthaut",Lore:[Die Oberfläche ercheint beunruhigend Makellos, sie erscheint immer brandneu.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz der Diamanthaut",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz der Diamanthaut",Lore:[Die Oberfläche ercheint beunruhigend Makellos, kein Kratzer zu finden.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel der Diamanthaut",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel der Diamanthaut",Lore:[Die Oberfläche ercheint beunruhigend Makellos, nicht einmal die Sohlen sind abgenutzt]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm der Dornen",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm der Dornen",Lore:[Die zwei langen Stacheln an der Stirn ähneln Hörnern, und myriarden an Klingen bilden eine wilde Haarmähne]},ench:[{id:7,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:plants_____5_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Brustrüstung der Dornen",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Brustrüstung der Dornen",Lore:[Rasiermesserscharfe Dornen bedecken jeden Quadratzentimeter der Rüstung. Sie schienen... hungrig.]},ench:[{id:7,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:plants_____5_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz der Dornen",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz der Dornen",Lore:[War das eine Stimme oder nur das flüstern der Klingen welche den Waffenrock bilden?]},ench:[{id:7,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:plants_____5_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel der Dornen",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel der Dornen",Lore:[Massive Stiefel mit Spitzen an den Sohlen, die alles unteer sich zermalmen.]},ench:[{id:7,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:plants_____5_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm des Xeno",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm des Xeno",Lore:[Wenn alles, wenn es einen gleichen Raum einnimmt, ...]},ench:[{id:4,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:arrow_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Brustrüstung des Xeno",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:chestplateAmethyst_____1_____0_____{display:{Name:"Legendäre Brustrüstung des Xeno",Lore:[... in Ruhe ist und wenn das, was sich in der Fortbewegung befindet, ...]},ench:[{id:4,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:chestplateAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Brustplatte",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:arrow_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Beinschutz des Xeno",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:leggingsAmethyst_____1_____0_____{display:{Name:"Legendärer Beinschutz des Xeno",Lore:[...  zu jedem Zeitpunkt immer einen solchen Raum einnimmt, ...]},ench:[{id:4,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:leggingsAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Beinschutz",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:arrow_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel des Xeno",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel des Xeno",Lore:[... ist der fliegende Pfeil daher bewegungslos -Xeno, Ephebischer Phillosoph]},ench:[{id:4,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:arrow_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Stiefel des Hermes",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:bootsAmethyst_____1_____0_____{display:{Name:"Legendäre Stiefel des Hermes",Lore:[Diese Schuhe sind auf den Fall aus großen Höhen vorbereitet.]},ench:[{id:2,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:bootsAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Stiefel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____minecraft:feather_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendäre Krone des Poseidon",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendäre Krone des Poseidon",Lore:[Eine mit Saphiren bedeckte Krone. Sie fühlt sich feucht an.]},ench:[{id:5,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____chisel:waterstone_____0_____{}"
+		},
+		{
+			"category": "Legendäre Rüstung",
+			"title": "Legendärer Helm Ruf der Tiefe",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:"Legendärer Helm Ruf der Tiefe",Lore:[Eine seltsamer Drang überkonnt den Träger. Wie ein ruf... ]},ench:[{id:6,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:helmetAmethyst_____0_____{display:{Name:"Aufgeladener Amethyst Helm",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____b_____plantmegapack:powderCoral_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Aufgeladene Amethyst Schaufel",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:shovelAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Schaufel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____eee,aha,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____h_____BiomesOPlenty:shovelAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Aufgeladene Amethyst Spitzhacke",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:pickaxeAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Spitzhacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____eee,aia,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____i_____BiomesOPlenty:pickaxeAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Aufgeladene Amethyst Axt",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:axeAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Axt",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____eee,aja,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____j_____BiomesOPlenty:axeAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Aufgeladene Amethyst Hacke",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:hoeAmethyst_____1_____0_____{display:{Name:"Aufgeladene Amethyst Hacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____eee,aka,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____k_____BiomesOPlenty:hoeAmethyst_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Schaufel der Effizienz",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:shovelAmethyst_____1_____0_____{display:{Name:"Legendäre Schaufel der Effizienz",Lore:[Rastlosigkeit scheint in diesem Werkzeug verkörpert.]},ench:[{id:32,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:shovelAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Schaufel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BuildCraft|Silicon:redstoneCrystal_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Spitzhacke der Effizienz",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:pickaxeAmethyst_____1_____0_____{display:{Name:"Legendäre Spitzhacke der Effizienz",Lore:[Rastlosigkeit scheint in diesem Werkzeug verkörpert.]},ench:[{id:32,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:pickaxeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Spitzhacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BuildCraft|Silicon:redstoneCrystal_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Axt der Effizienz",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:axeAmethyst_____1_____0_____{display:{Name:"Legendäre Axt der Effizienz",Lore:[Rastlosigkeit scheint in diesem Werkzeug verkörpert.]},ench:[{id:32,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:axeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Axt",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BuildCraft|Silicon:redstoneCrystal_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Hacke der Effizienz",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:hoeAmethyst_____1_____0_____{display:{Name:"Legendäre Hacke der Effizienz",Lore:[Rastlosigkeit scheint in diesem Werkzeug verkörpert.]},ench:[{id:32,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:hoeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Hacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BuildCraft|Silicon:redstoneCrystal_____0_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Schaufel der Haltbarkeit",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:shovelAmethyst_____1_____0_____{display:{Name:"Legendäre Schaufel der Haltbarkeit",Lore:[Die Oberfläche ercheint beunruhigend Makellos, auch der Stiel ist absolut unberührt.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:shovelAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Schaufel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Spitzhacke der Haltbarkeit",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:pickaxeAmethyst_____1_____0_____{display:{Name:"Legendäre Spitzhacke der Haltbarkeit",Lore:[Die Oberfläche ercheint beunruhigend Makellos, auch der Stiel ist absolut unberührt.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:pickaxeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Spitzhacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Axt der Haltbarkeit",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:axeAmethyst_____1_____0_____{display:{Name:"Legendäre Axt der Haltbarkeit",Lore:[Die Oberfläche ercheint beunruhigend Makellos, auch der Stiel ist absolut unberührt.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:axeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Axt",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Hacke der Haltbarkeit",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:hoeAmethyst_____1_____0_____{display:{Name:"Legendäre Hacke der Haltbarkeit",Lore:[Die Oberfläche ercheint beunruhigend Makellos, auch der Stiel ist absolut unberührt.]},ench:[{id:34,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:hoeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Hacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____TConstruct:MetalBlock_____8_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Schaufel des vierblättrigen Kleeblatts",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:shovelAmethyst_____1_____0_____{display:{Name:"Legendäre Schaufel des vierblättrigen Kleeblatts",Lore:[Heute ist ein GUTER Tag!]},ench:[{id:35,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:shovelAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Schaufel",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:foliage_____13_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Spitzhacke des des vierblättrigen Kleeblatts",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:pickaxeAmethyst_____1_____0_____{display:{Name:"Legendäre Spitzhacke des des vierblättrigen Kleeblatts",Lore:[Heute ist ein GUTER Tag!]},ench:[{id:35,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:pickaxeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Spitzhacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:foliage_____13_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Axt des des vierblättrigen Kleeblatts",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:axeAmethyst_____1_____0_____{display:{Name:"Legendäre Axt des des vierblättrigen Kleeblatts",Lore:[Heute ist ein GUTER Tag!]},ench:[{id:35,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:axeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Axt",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:foliage_____13_____{}"
+		},
+		{
+			"category": "Legendäres Werkzeug",
+			"title": "Legendäre Hacke des des vierblättrigen Kleeblatts",
+			"description": "Lorem et Ipsum",
+			"recipe": "BiomesOPlenty:hoeAmethyst_____1_____0_____{display:{Name:"Legendäre Hacke des des vierblättrigen Kleeblatts",Lore:[Heute ist ein GUTER Tag!]},ench:[{id:35,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:hoeAmethyst_____0_____{display:{Name:"Aufgeladene Amethyst Hacke",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:foliage_____13_____{}"
+		},
+		{
+			"category": "Uncategorized Recipes",
+			"title": "Enriched Quartz Star",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:enriched_quarz_star_____1_____0_____{}_____dqe,xnx,eqd_____q_____minecraft:quartz_block_____0_____{}_____e_____minecraft:iron_block_____0_____{}_____x_____minecraft:ender_pearl_____0_____{}_____n_____lootplusplus:nether_star_block_____0_____{}_____d_____minecraft:diamond_block_____0_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Engine Block MK I",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:engine_block_mk1_____1_____0_____{}_____eee,eae,eee_____e_____BuildCraft|Core:engineBlock_____0_____{}_____a_____minecraft:redstone_block_____0_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Engine Block MK II",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:engine_block_mk2_____1_____0_____{}_____eee,eae,eee_____e_____lootplusplus:engine_block_mk1_____0_____{}_____a_____BuildCraft|Core:engineBlock_____1_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Engine Block MK III",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:engine_block_mk3_____1_____0_____{}_____eee,eae,eee_____e_____lootplusplus:engine_block_mk2_____0_____{}_____a_____BuildCraft|Core:engineBlock_____2_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Engine Block MK IV",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:engine_block_mk4_____1_____0_____{}_____eee,eae,eee_____e_____lootplusplus:engine_block_mk3_____0_____{}_____a_____BuildCraft|Silicon:redstoneCrystal_____0_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Creative Engine",
+			"description": "Lorem et Ipsum",
+			"recipe": "BuildCraft|Core:engineBlock_____1_____3_____{}_____ana,mom,ana_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____lootplusplus:nether_star_block_____0_____{}_____m_____lootplusplus:engine_block_mk5_____0_____{}_____o_____Thaumcraft:ItemEldritchObject_____3_____{}"
+		},
+		{
+			"category": "Currency",
+			"title": "Silber",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:currency_silver_____1_____0_____{}_____eee,eee,eee_____e_____lootplusplus:currency_copper_____0_____{}"
+		},
+		{
+			"category": "Currency",
+			"title": "Gold",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:currency_gold_____1_____0_____{}_____eee,eee,eee_____e_____lootplusplus:currency_silver_____0_____{}"
+		},
+		{
+			"category": "Currency",
+			"title": "Platinum",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:currency_platinium_____1_____0_____{}_____eee,eee,eee_____e_____lootplusplus:currency_gold_____0_____{}"
+		}
 	],
 	"shapeless": [
 		{
@@ -42,7 +426,7 @@
 	"smelting": [
 		{
 			"category": "Uncategorized Recipes",
-			"title": "Engine Block MK V",
+			"title": "Enriched Quartz Star",
 			"description": "Lorem et Ipsum",
 			"recipe": "lootplusplus:enriched_quarz_star_____0_____BiomesOPlenty:gems_____0_____{}_____1_____1"
 		},
