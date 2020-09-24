@@ -76,9 +76,9 @@
 			},
 			"leggingsAmethyst": {
 				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_legginsamethyst.png",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_leggingsamethyst.png",
 					"href": "https://ftbwiki.org/Armor",
-					"title": "Amethyst Leggins"
+					"title": "Amethyst Leggings"
 				}
 			},
 			"pickaxeAmethyst": {
@@ -90,9 +90,9 @@
 			},
 			"plants": {
 				"5": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_thorns_5.png",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/biomesoplenty_plants_5.png",
 					"href": "https://biomesoplenty.fandom.com/wiki/Thorns",
-					"title": "Amethyst Leggins"
+					"title": "Thorns"
 				}
 			},
 			"shovelAmethyst": {
@@ -425,7 +425,7 @@
 		"plantmegapack": {
 			"powderCoral": {
 				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/plantsmegapack_powdercoral.png",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/plantmegapack_powdercoral.png",
 					"href": "#missingno",
 					"title": "Coral Powder"
 				}
