@@ -47,6 +47,7 @@ function parseRecipes(recipes, itemUrl) {
 			var item = ITEMS.GAME;
 			for (var i = 0; i < arr.length; i++) {
 				if (!item) return ITEMS.RECIPE_API.MISSINGNO;
+				if (arr[i] === -1 ) arr[i] = 0;
 				item = item[arr[i].toString()];
 			}
 			return item;
