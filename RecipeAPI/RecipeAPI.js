@@ -84,14 +84,14 @@ const RecipeAPI = {
 		
 		// Get all declarations
 		var items = [];
-		for (var i = 4, j = 0; i < recipe.length; i += 4, j++) {
+		for (var i = 4; i < recipe.length; i += 3) {
 			recipe[i] = recipe[i].split(':');
-			items[j] = {
+			items.push({
 				mod: recipe[i][0],
 				name: recipe[i][1],
 				meta: Number(recipe[i + 1]),
 				nbt: recipe[i + 2]
-			};
+			});
 		}
 		
 		// Final result
