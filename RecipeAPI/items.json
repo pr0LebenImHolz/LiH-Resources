@@ -434,12 +434,12 @@
 		"TConstruct": {
 			"heartCanister": {
 				"1": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_1.png",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_heartcanister_1.png",
 					"href": "https://ftbwiki.org/Miniature_Red_Heart",
 					"title": "Miniature Red Heart"
 				},
 				"3": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_3.png",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_heartcanister_3.png",
 					"href": "https://ftbwiki.org/Miniature_Yellow_Heart",
 					"title": "Miniature Yellow Heart"
 				},
