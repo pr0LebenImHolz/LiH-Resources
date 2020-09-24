@@ -331,7 +331,7 @@
 			"recipe": "BiomesOPlenty:hoeAmethyst_____1_____0_____{display:{Name:\"Legendäre Hacke des des vierblättrigen Kleeblatts\",Lore:[Heute ist ein GUTER Tag!]},ench:[{id:35,lvl:10}]}_____eae,nrb,eae_____e_____VeganOption:encrustedObsidian_____0_____{}_____a_____BiomesOPlenty:gemOre_____1_____{}_____n_____minecraft:nether_star_____0_____{}_____r_____BiomesOPlenty:hoeAmethyst_____0_____{display:{Name:\"Aufgeladene Amethyst Hacke\",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:5,lvl:1}],HideFlags:1}_____b_____BiomesOPlenty:foliage_____13_____{}"
 		},
 		{
-			"category": "Uncategorized Recipes",
+			"category": "Miscellaneous",
 			"title": "Enriched Quartz Star",
 			"description": "Lorem et Ipsum",
 			"recipe": "lootplusplus:enriched_quarz_star_____1_____0_____{}_____dqe,xnx,eqd_____q_____minecraft:quartz_block_____0_____{}_____e_____minecraft:iron_block_____0_____{}_____x_____minecraft:ender_pearl_____0_____{}_____n_____lootplusplus:nether_star_block_____0_____{}_____d_____minecraft:diamond_block_____0_____{}"
@@ -425,8 +425,8 @@
 	],
 	"smelting": [
 		{
-			"category": "Uncategorized Recipes",
-			"title": "Enriched Quartz Star",
+			"category": "Miscellaneous",
+			"title": "Ender Amethyst",
 			"description": "Lorem et Ipsum",
 			"recipe": "lootplusplus:enriched_quarz_star_____0_____BiomesOPlenty:gems_____0_____{}_____1_____1"
 		},
