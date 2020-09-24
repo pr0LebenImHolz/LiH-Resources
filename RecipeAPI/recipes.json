@@ -43,14 +43,14 @@
 			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Auge des Sturms\",Lore:[\"In seinem Inneren scheint ein Sturm zu toben\"]},Enchantments:[{}],CommandList:[\"/weather clear\",\"/me verbannte die Wolken vom Himmel\"]}_____ c ,gdg, s _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____c_____chisel:cloudinabottle_____0_____{}_____s_____minecraft:double_plant_____0_____{}"
 		},
 		{
-			"category": "Uncategorized Recipes",
-			"title": "Auge des Sturms",
+			"category": "Tinker's Construct: Heart Canister",
+			"title": "Miniature Green Heart",
 			"description": "Lorem et Ipsum",
 			"recipe": "TConstruct:heartCanister_____1_____5_____{}_____yry,rer,yry_____r_____TConstruct:heartCanister_____1_____{}_____y_____TConstruct:heartCanister_____3_____{}_____e_____harvestcraft:epicbaconItem_____-1_____{}"
 		},
 		{
 			"category": "Legendäre Rüstung",
-			"title": "???",
+			"title": "Aufgeladener Amethyst Helm",
 			"description": "Lorem et Ipsum",
 			"recipe": "BiomesOPlenty:helmetAmethyst_____1_____0_____{display:{Name:\"Aufgeladener Amethyst Helm\",Lore:[Eine mysteriöse Macht wohnt dieser Rüstung anheim. Die falsche Handhabung könnte Folgen haben...]},ench:[{id:11,lvl:1}],HideFlags:1}_____eee,aga,eee_____e_____minecraft:experience_bottle_____0_____{}_____a_____minecraft:diamond_block_____0_____{}_____g_____BiomesOPlenty:helmetAmethyst_____0_____{}"
 		},
