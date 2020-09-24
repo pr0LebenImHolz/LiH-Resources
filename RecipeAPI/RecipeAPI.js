@@ -42,7 +42,8 @@ const RecipeAPI = {
 			declarations[recipe[i]] = {
 				mod: recipe[i + 1][0],
 				name: recipe[i + 1][1],
-				meta: Number(recipe[i + 2]),
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[i + 2],
 				nbt: recipe[i + 3]
 			};
 		}
@@ -62,7 +63,8 @@ const RecipeAPI = {
 				mod: recipe[0][0],
 				name: recipe[0][1],
 				count: Number(recipe[1]),
-				meta: Number(recipe[2]),
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[2],
 				nbt: recipe[3],
 			},
 			crafting: recipe[4]
@@ -89,7 +91,8 @@ const RecipeAPI = {
 			items.push({
 				mod: recipe[i][0],
 				name: recipe[i][1],
-				meta: Number(recipe[i + 1]),
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[i + 1],
 				nbt: recipe[i + 2]
 			});
 		}
@@ -100,7 +103,8 @@ const RecipeAPI = {
 				mod: recipe[0][0],
 				name: recipe[0][1],
 				count: Number(recipe[1]),
-				meta: Number(recipe[2]),
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[2],
 				nbt: recipe[3],
 			},
 			crafting: items
@@ -123,12 +127,14 @@ const RecipeAPI = {
 			input: {
 				mod: recipe[0][0],
 				name: recipe[0][1],
-				meta: Number(recipe[1])
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[1]
 			},
 			output: {
 				mod: recipe[2][0],
 				name: recipe[2][1],
-				meta: Number(recipe[3]),
+				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
+				meta: recipe[3]),
 				nbt: recipe[4],
 				count: Number(recipe[5]),
 			}

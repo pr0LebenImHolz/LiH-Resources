@@ -28,19 +28,19 @@
 			"category": "Perlen",
 			"title": "Leere Perle",
 			"description": "Lorem et Ipsum",
-			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____ g ,gdg, g _____g_____minecraft:glass_____0_____{}_____d_____minecraft:diamond_____0_____{}"
+			"recipe": "lootplusplus:command_trigger_item_____1_____eye-of-storm_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____ g ,gdg, g _____g_____minecraft:glass_____0_____{}_____d_____minecraft:diamond_____0_____{}"
 		},
 		{
 			"category": "Perlen",
 			"title": "Herz der Nacht",
 			"description": "Lorem et Ipsum",
-			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Herz der Nacht\",Lore:[\"Im Schimmern des Edelsteins kann man den Glanz der Sterne erkennen\"]},Enchantments:[{}],CommandList:[\"/time set day\",\"/me verwies die Nacht in ihre Grenzen\"]}_____ u ,gdg, u _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____u_____minecraft:clock_____0_____{}"
+			"recipe": "lootplusplus:command_trigger_item_____1_____eye-of-storm_____{Unwrap:1,display:{Name:\"Herz der Nacht\",Lore:[\"Im Schimmern des Edelsteins kann man den Glanz der Sterne erkennen\"]},Enchantments:[{}],CommandList:[\"/time set day\",\"/me verwies die Nacht in ihre Grenzen\"]}_____ u ,gdg, u _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____u_____minecraft:clock_____0_____{}"
 		},
 		{
 			"category": "Perlen",
 			"title": "Auge des Sturms",
 			"description": "Lorem et Ipsum",
-			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Auge des Sturms\",Lore:[\"In seinem Inneren scheint ein Sturm zu toben\"]},Enchantments:[{}],CommandList:[\"/weather clear\",\"/me verbannte die Wolken vom Himmel\"]}_____ c ,gdg, s _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____c_____chisel:cloudinabottle_____0_____{}_____s_____minecraft:double_plant_____0_____{}"
+			"recipe": "lootplusplus:command_trigger_item_____1_____eye-of-storm_____{Unwrap:1,display:{Name:\"Auge des Sturms\",Lore:[\"In seinem Inneren scheint ein Sturm zu toben\"]},Enchantments:[{}],CommandList:[\"/weather clear\",\"/me verbannte die Wolken vom Himmel\"]}_____ c ,gdg, s _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____c_____chisel:cloudinabottle_____0_____{}_____s_____minecraft:double_plant_____0_____{}"
 		},
 		{
 			"category": "Tinker's Construct: Heart Canister",
