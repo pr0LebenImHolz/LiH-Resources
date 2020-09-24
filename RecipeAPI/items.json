@@ -209,7 +209,7 @@
 					"title": "Gold Coin"
 				}
 			},
-			"currency_platinum": {
+			"currency_platinium": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_currency-platinum.png",
 					"href": "#lootplusplus:currency_platinum",
