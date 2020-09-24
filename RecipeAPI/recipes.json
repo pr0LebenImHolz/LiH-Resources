@@ -1,13 +1,13 @@
 {
 	"shaped": [
-		{
-			"category": "Rüstung",
-			"title": "Kettenhelm",
-			"description": "Lorem et Ipsum",
-			"recipe": "minecraft:chainmail_helmet_____1_____0_____{}_____fff,f f,   _____f_____GardenStuff:chain_link_____2_____{}"
-		}
 	],
 	"shapeless": [
+		{
+			"category": "Tinker's Construct: Heart Canister",
+			"title": "Green Heart Canister",
+			"description": "Lorem et Ipsum",
+			"recipe": "TConstruct:heartCanister_____1_____6_____{}_____TConstruct:heartCanister_____4_____{}_____TConstruct:heartCanister_____5_____{}_____minecraft:nether_star_____-1_____{}_____BiomesOPlenty:gems_____0_____{}"
+		},
 		{
 			"category": "Mod-Kompatiblität",
 			"title": "Thaumcraft Bernstein",
@@ -19,9 +19,33 @@
 			"title": "Biomes o` Plenty Bernstein",
 			"description": "Lorem et Ipsum",
 			"recipe": "Thaumcraft:ItemResource_____1_____6_____{}_____BiomesOPlenty:gems_____7_____{}"
+		},
+		{
+			"category": "Mod-Kompatiblität",
+			"title": "Biomes o` Plenty Bernstein",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:experience_bottle_____1_____0_____{}_____minecraft:glass_bottle_____0_____{}_____TConstruct:oreBerries_____5_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Nether Star Block",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:nether_star_block_____1_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}_____minecraft:nether_star_____0_____{}"
+		},
+		{
+			"category": "Buildcraft: Creative Engine",
+			"title": "Nether Star",
+			"description": "Lorem et Ipsum",
+			"recipe": "minecraft:nether_star_____9_____0_____{}_____lootplusplus:nether_star_block_____0_____{}"
 		}
 	],
 	"smelting": [
+		{
+			"category": "Uncategorized Recipes",
+			"title": "Engine Block MK V",
+			"description": "Lorem et Ipsum",
+			"recipe": "lootplusplus:enriched_quarz_star_____0_____BiomesOPlenty:gems_____0_____{}_____1_____1"
+		},
 		{
 			"category": "Buildcraft: Creative Engine",
 			"title": "Engine Block MK V",
