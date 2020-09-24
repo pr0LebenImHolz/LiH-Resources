@@ -5,6 +5,11 @@ const RECIPE_STYLES = {
 	CONTAINER_RECIPE: '<div class="recipe_recipe_container">%c</div>',
 	CONTAINER_RECIPE_DESCRIPTION: '<p class="recipe_description">%c</p>',
 };
+const ERRORED_RECIPES = {
+	SHAPED: '<div class="recipe_shaped"><div class="recipe_type errored"></div><table class="recipe_input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>',
+	SHAPELESS: '<div class="recipe_shapeless"><div class="recipe_type errored"></div><table class="input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>',
+	SMELTING: '<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a></a><div class="recipe_flame"></div><a></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>'
+};
 function parseRecipes(recipes, itemUrl) {
 	function _getItems(url) {
 		try {
@@ -46,12 +51,14 @@ function parseRecipes(recipes, itemUrl) {
 		function _getItem(arr) {
 			var item = ITEMS.GAME;
 			for (var i = 0; i < arr.length; i++) {
-				if (!item) {
+				try {
+					if (arr[i] === "-1" ) arr[i] = "0";
+					item = item[arr[i]];
+				}
+				catch (e) {
 					console.warn(`Replaced item '${arr.join(":")}' with missingno texture`);
 					return ITEMS.RECIPE_API.MISSINGNO;
 				}
-				if (arr[i] === -1 ) arr[i] = 0;
-				item = item[arr[i]];
 			}
 			return item;
 		}
@@ -88,25 +95,42 @@ function parseRecipes(recipes, itemUrl) {
 		}
 		switch (recipe.type) {
 			case RecipeAPI.CONSTANTS.TYPE_SHAPED_CRAFTING:
-				if (recipe.errored) return '<div class="recipe_shaped"><div class="recipe_type errored"></div><table class="recipe_input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
-				// output is json object with name, image and wiki link ({href,title,img})
-				var input = recipe.recipe.crafting;
-				return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseShapedTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				if (recipe.errored) return ERRORED_RECIPES.SHAPED;
+				try {
+					var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+					// output is json object with name, image and wiki link ({href,title,img})
+					var input = recipe.recipe.crafting;
+					return `<div class="recipe_shaped"><div class="recipe_type"></div><table class="recipe_input">${_parseShapedTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				}
+				catch (e) {
+					console.error(`Failed to parse shaped recipe ${recipe.title}:`, e);
+					if (recipe.errored) return ERRORED_RECIPES.SHAPED;
+				}
 			case RecipeAPI.CONSTANTS.TYPE_SHAPELESS_CRAFTING:
-				if (recipe.errored) return '<div class="recipe_shapeless"><div class="recipe_type errored"></div><table class="input"><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr><tr><td><a></a></td><td><a></a></td><td><a></a></td></tr></table><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
-				// output is json object with name, image and wiki link ({href,title,img})
-				var input = recipe.recipe.crafting;
-				return `<div class="recipe_shapeless"><div class="recipe_type"></div><table class="recipe_input">${_parseShapelessTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				if (recipe.errored) return ERRORED_RECIPES.SHAPELESS;
+				try {
+					var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+					// output is json object with name, image and wiki link ({href,title,img})
+					var input = recipe.recipe.crafting;
+					return `<div class="recipe_shapeless"><div class="recipe_type"></div><table class="recipe_input">${_parseShapelessTable(input)}</table><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				}
+				catch (e) {
+					console.error(`Failed to parse shapeless recipe ${recipe.title}:`, e);
+					if (recipe.errored) return ERRORED_RECIPES.SHAPELESS;
+				}
 			case RecipeAPI.CONSTANTS.TYPE_SMELTING:
-				if (recipe.errored) return '<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a></a><div class="recipe_flame"></div><a></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a></a></div></div>';
-				var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
-				var input = _getItem([recipe.recipe.input.mod, recipe.recipe.input.name, recipe.recipe.input.meta]);
-				// output and input are json objects with name, image and wiki link ({href,title,img})
-				var fuel = ITEMS.RECIPE_API.FUEL;
-				//-debug
-				return `<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a href="${input.href}" title="${input.title}"><img src="${input.img}" alt="${input.title[0]}" /></a><div class="recipe_flame"></div><a href="${fuel.href}" title="${fuel.title}"><img src="${fuel.img}" alt="${fuel.title[0]}" /></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				if (recipe.errored) return ERRORED_RECIPES.SMELTING;
+				try {
+					var output = _getItem([recipe.recipe.output.mod, recipe.recipe.output.name, recipe.recipe.output.meta]);
+					var input = _getItem([recipe.recipe.input.mod, recipe.recipe.input.name, recipe.recipe.input.meta]);
+					// output and input are json objects with name, image and wiki link ({href,title,img})
+					var fuel = ITEMS.RECIPE_API.FUEL;
+					return `<div class="recipe_smelting"><div class="recipe_type"></div><div class="recipe_input"><a href="${input.href}" title="${input.title}"><img src="${input.img}" alt="${input.title[0]}" /></a><div class="recipe_flame"></div><a href="${fuel.href}" title="${fuel.title}"><img src="${fuel.img}" alt="${fuel.title[0]}" /></a></div><div class="recipe_arrow"></div><div class="recipe_output"><a href="${output.href}" title="${output.title}"><img src="${output.img}" alt="${output.title[0]}" /></a></div></div>`;
+				}
+				catch (e) {
+					console.error(`Failed to parse smelting recipe ${recipe.title}:`, e);
+					if (recipe.errored) return ERRORED_RECIPES.SMELTING;
+				}
 		}
 		return recipe;
 	}
