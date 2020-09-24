@@ -105,7 +105,7 @@
 					"href": "https://ftb.gamepedia.com/Cloud_in_a_Bottle_(Chisel_(TheCricket26))",
 					"title": "Cloud in a Bottle"
 				}
-			}
+			},
 			"waterstone": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/chisel_waterstone_0.png",
@@ -182,7 +182,7 @@
 					"href": "#lootplusplus:enriched_quarz_star",
 					"title": "Enrichted Quartz Star"
 				}
-			}
+			},
 			"nether_star_block": {
 				"0": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_nether-star-block.png",
@@ -341,7 +341,7 @@
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_0.png",
 					"href": "https://ftbwiki.org/Block_of_Cobalt_(Tinkers%27_Construct)",
 					"title": "Block of Cobalt"
-				}
+				},
 				"8": {
 					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/tconstruct_metalblock_8.png",
 					"href": "https://ftbwiki.org/Block_of_Alumite",
