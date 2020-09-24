@@ -51,7 +51,7 @@ function parseRecipes(recipes, itemUrl) {
 					return ITEMS.RECIPE_API.MISSINGNO;
 				}
 				if (arr[i] === -1 ) arr[i] = 0;
-				item = item[arr[i].toString()];
+				item = item[arr[i]];
 			}
 			return item;
 		}

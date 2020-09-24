@@ -134,7 +134,7 @@ const RecipeAPI = {
 				mod: recipe[2][0],
 				name: recipe[2][1],
 				// Don't parse as Number because the lootplusplus:command_trigger_item has an additional name.
-				meta: recipe[3]),
+				meta: recipe[3],
 				nbt: recipe[4],
 				count: Number(recipe[5]),
 			}
