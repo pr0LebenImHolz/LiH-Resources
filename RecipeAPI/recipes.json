@@ -43,18 +43,6 @@
 			"recipe": "lootplusplus:command_trigger_item_____1_____eye_of_storm_____{Unwrap:1,display:{Name:\"Auge des Sturms\",Lore:[\"In seinem Inneren scheint ein Sturm zu toben\"]},Enchantments:[{}],CommandList:[\"/weather clear\",\"/me verbannte die Wolken vom Himmel\"]}_____ c ,gdg, s _____g_____minecraft:ender_pearl_____0_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[\"\"]}_____c_____chisel:cloudinabottle_____0_____{}_____s_____minecraft:double_plant_____0_____{}"
 		},
 		{
-			"category": "Perlen",
-			"title": "Menschlichkeit",
-			"description": "Bringt dich dem Menschlich sein ein Stückchen näher, entfernt Teile des permanenten Warps",
-			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Menschlichkeit\",Lore:[Bringt dich dem Menschlich sein ein Stückchen näher]},Enchantments:[{}],CommandList:[\"/tc warp @p add -10 PERM",\"/msg @p Du fühlst dich weniger beobachtet\"]}_____ s ,pdp, s _____s_____minecraft:skull_____3_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[""]}_____p_____Thaumcraft:ItemBathSalts_____0_____{}"
-		},
-		{
-			"category": "Perlen",
-			"title": "Thaumaturgisches Aspirin",
-			"description": "Gegen, gegen dieses flüstern..., entfernt den themporären Warp",
-			"recipe": "lootplusplus:command_trigger_item_____1_____0_____{Unwrap:1,display:{Name:\"Thaumaturgisches Aspirin\",Lore:[Gegen, gegen dieses flüstern...]},Enchantments:[{}],CommandList:[\"/tc warp @p set 0 TEMP","/msg @p Die Kopfschmerzen lassen nach\"]}_____ s ,bdb, s _____b_____minecraft:log_____2_____{}_____d_____lootplusplus:command_trigger_item_____0_____{Unwrap:1,display:{Name:\"Leere Perle\",Lore:[\"Ein mächtiges Potential welchem die Richtung zu fehlen scheint\"]},Enchantments:[{}],CommandList:[""]}_____s_____Thaumcraft:ItemSanitySoap_____0_____{}"
-		},
-		{
 			"category": "Tinker's Construct: Heart Canister",
 			"title": "Miniature Green Heart",
 			"description": "Kann gegessen werden um eine große Menge HP wiederherzustellen. Wird benutzt um Herzkanister herzustellen",
