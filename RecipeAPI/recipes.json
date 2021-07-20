@@ -334,7 +334,7 @@
 			"category": "Miscellaneous",
 			"title": "Enriched Quartz Star",
 			"description": "Aus ihm können Amethysten hergestellt werden",
-			"recipe": "lootplusplus:enriched_quarz_star_____1_____0_____{}_____dqe,xnx,eqd_____q_____minecraft:quartz_block_____0_____{}_____e_____minecraft:iron_block_____0_____{}_____x_____minecraft:ender_pearl_____0_____{}_____n_____lootplusplus:nether_star_block_____0_____{}_____d_____minecraft:diamond_block_____0_____{}"
+			"recipe": "lootplusplus:enriched_quartz_star_____1_____0_____{}_____dqe,xnx,eqd_____q_____minecraft:quartz_block_____0_____{}_____e_____minecraft:iron_block_____0_____{}_____x_____minecraft:ender_pearl_____0_____{}_____n_____lootplusplus:nether_star_block_____0_____{}_____d_____minecraft:diamond_block_____0_____{}"
 		},
 		{
 			"category": "Buildcraft: Creative Engine",
@@ -428,7 +428,7 @@
 			"category": "Miscellaneous",
 			"title": "Ender Amethyst",
 			"description": "Nun auch herstellbar!",
-			"recipe": "lootplusplus:enriched_quarz_star_____0_____BiomesOPlenty:gems_____0_____{}_____1_____1"
+			"recipe": "lootplusplus:enriched_quartz_star_____0_____BiomesOPlenty:gems_____0_____{}_____1_____1"
 		},
 		{
 			"category": "Buildcraft: Creative Engine",

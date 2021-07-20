@@ -258,10 +258,10 @@
 					"title": "Engine Block MK V"
 				}
 			},
-			"enriched_quarz_star": {
+			"enriched_quartz_star": {
 				"0": {
-					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_enriched-quarz-star.png",
-					"href": "#lootplusplus:enriched_quarz_star",
+					"img": "https://pr0lebenimholz.github.io/LiH-Resources/RecipeAPI/resources/game/lootplusplus_enriched-quartz-star.png",
+					"href": "#lootplusplus:enriched_quartz_star",
 					"title": "Enrichted Quartz Star"
 				}
 			},
